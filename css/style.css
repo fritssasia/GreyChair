@@ -1,0 +1,53 @@
+/* fonts */
+@font-face {
+    font-family: 'ProductSans-Regular';
+    src: local('ProductSans-Regular'), url('../fonts/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Product-Sans-Bold';
+    src: local('Product-Sans-Bold'), url('../fonts/Product-Sans-Bold.woff') format('woff');
+}
+
+/* body */
+body {
+    font-family: 'ProductSans-Regular';
+}
+
+
+/* navbar */
+.navbar-brand {
+    width: auto;
+    height: 60px;
+    object-fit: cover;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: white;
+}
+
+.heading-welcome {
+    font-family: 'Product-Sans-Bold';
+}
+
+.heading-dots {
+    color: grey;
+}
+
+.description {
+    font-family: 'ProductSans-Regular';
+}
+
+.background-img {
+    width: auto;
+    height: 400px;
+}
+
+
+.store {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
