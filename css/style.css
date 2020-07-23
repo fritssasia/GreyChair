@@ -35,7 +35,7 @@ body {
 
 .heading-comfortable {
     font-family: 'Product-Sans-Bold';
-    font-size: 65px;
+    font-size: 66px;
     color: black
 }
 
@@ -44,6 +44,7 @@ body {
 }
 
 .jumbotron-text-description {
+    padding-top: 20px;
     font-family: 'ProductSans-Regular';
     font-size: 18px;
 }
