@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -20,9 +22,9 @@
 
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
-            <img src="img/brand-img/greyChair.png" alt="" class="navbar-brand">
+            <img src="img/brand-img/logo.png" alt="" class="navbar-brand">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,31 +56,33 @@
 
     <!-- jumbotron -->
     <div class="jumbotron">
-        <div class="container">
-            <div class="row">
+        <div class="jumbotron-content-wrapper">
+            <div class="container">
+                <div class="row">
 
-                <div class="col-lg-6">
-                    <div class="jumbotron-text-wrapper">
-                        <h1 class="heading-comfortable">Your Comfortable Soffa<span
-                                class="heading-comfortable-dots">.</span></h1>
-                        <p class="jumbotron-text-description">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.<br>Vero obcaecati
-                            magni
-                            exercitationem, debitis est<br>corrupti harum aliquam.</p>
+                    <div class="col-lg-6">
+                        <div class="jumbotron-text-wrapper">
+                            <h1 class="heading-comfortable">Your Comfortable Soffa<span
+                                    class="heading-comfortable-dots">.</span></h1>
+                            <p class="jumbotron-text-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.<br>Vero obcaecati
+                                magni
+                                exercitationem, debitis est<br>corrupti harum aliquam.</p>
 
-                        <!-- get-it-now-btn -->
-                        <div class="get-it-now-btn">
-                            <a href="" class="btn btn-get-it-now">Get It Now</a>
+                            <!-- get-it-now-btn -->
+                            <div class="get-it-now-btn">
+                                <a href="" class="btn btn-get-it-now">Get It Now</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <div class="jumbotron-bg-image-wrapper">
-                        <img src="img/background-img/bg-sofa.png" alt="" class="bg-img">
+                    <div class="col-lg-6">
+                        <div class="jumbotron-bg-image-wrapper">
+                            <img src="img/background-img/bg-sofa.png" alt="" class="bg-img">
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
@@ -110,15 +114,28 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
+    <!-- jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    </script>  -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- popper.js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    </script>  -->
+
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap.js -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+    </script>  -->
+
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

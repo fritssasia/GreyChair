@@ -18,24 +18,27 @@ body {
 
 /* navbar */
 .navbar-brand {
+    padding-bottom: 28px;
     width: auto;
-    height: 45px;
+    height: 150px;
     object-fit: cover;
 }
 
 .nav-link {
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .btn-login {
     background-color: #2f3035;
     color: white;
     border-radius: 0%;
+    width: 80px;
 }
 
 .btn-register {
     margin-left: 15px;
     border-radius: 0%;
+    width: 80px;
 }
 
 
@@ -44,13 +47,17 @@ body {
     background-color: white;
 }
 
+.jumbotron-content-wrapper {
+    margin-top: 95px;
+}
+
 .jumbotron-text-wrapper {
     margin-top: 25px;
 }
 
 .heading-comfortable {
     font-family: 'Product-Sans-Bold';
-    font-size: 66px;
+    /* font-size: 66px; */
     color: black;
 }
 
@@ -85,7 +92,6 @@ body {
 
 .bg-img {
     width: auto;
-    height: 300px;
 }
 
 
