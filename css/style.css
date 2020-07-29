@@ -1,0 +1,99 @@
+/* fonts */
+@font-face {
+    font-family: 'ProductSans-Regular';
+    src: local('ProductSans-Regular'), url('../fonts/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Product-Sans-Bold';
+    src: local('Product-Sans-Bold'), url('../fonts/Product-Sans-Bold.woff') format('woff');
+}
+
+
+/* body */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'ProductSans-Regular';
+}
+
+/* navbar */
+.navbar-brand {
+    width: auto;
+    object-fit: cover;
+}
+
+.btn-login {
+    background-color: #2f3035;
+    color: white;
+    border-radius: 0%;
+    width: 80px;
+}
+
+.btn-login:hover {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn-register {
+    border-radius: 0%;
+    width: 80px;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: white;
+}
+
+.heading-comfortable {
+    font-family: 'Product-Sans-Bold';
+    color: black;
+}
+
+.heading-comfortable-dots {
+    color: gray;
+}
+
+.jumbotron-text-description {
+    padding-top: 15px;
+    font-family: 'ProductSans-Regular';
+}
+
+.btn-get-it-now {
+    margin-top: 7px;
+    background-color: #2f3035;
+    box-shadow: 1px 5px 5px gray;
+    color: white;
+    padding-top: 10px;
+    height: 45px;
+    width: 125px;
+    border-radius: 0%;
+}
+
+.btn-get-it-now:hover {
+    color: white;
+}
+
+.jumbotron-bg-image-wrapper {
+    padding-top: 35px;
+}
+
+.bg-img {
+    width: auto;
+}
+
+
+/* available-store */
+.available-store {
+    height: 65px;
+}
+
+.store {
+    margin-top: -55px;
+    width: auto;
+    object-fit: cover;
+}
