@@ -32,6 +32,12 @@ body {
     width: 80px;
 }
 
+.btn-login:hover {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
 .btn-register {
     border-radius: 0%;
     width: 80px;
