@@ -88,6 +88,10 @@ body {
 
 
 /* available-store */
+.available-store {
+    height: 65px;
+}
+
 .store {
     margin-top: -55px;
     width: auto;
