@@ -1,12 +1,42 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+    /* navbar */
+    .navbar-brand {
+        height: 80px;
+    }
+
+    .nav-link {
+        margin-top: 7px;
+    }
+
+    .btn-login {
+        margin-top: 15px;
+    }
+
+    .btn-register {
+        margin-top: 15px;
+    }
+
+
     /* jumbotron */
     .heading-comfortable {
         font-size: 35px;
     }
 
+    .jumbotron-description-text {
+        font-size: 17px;
+    }
+
     .bg-img {
         height: 200px;
+    }
+
+
+    /* available store */
+    .store {
+        height: 45px;
+        margin-top: 25px;
     }
 }
 
@@ -21,12 +51,39 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+    /* navbar */
+    .navbar-brand {
+        height: 100px;
+        padding-bottom: 28px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .btn-register {
+        margin-left: 15px;
+    }
+
+
     /* jumbotron */
     .heading-comfortable {
         font-size: 66px;
     }
 
+    .jumbotron-description-text {
+        font-size: 18px;
+    }
+
     .bg-img {
         height: 300px;
+        padding-left: 25px;
+    }
+
+
+    /* available-store */
+    .store {
+        height: 50px;
     }
 }

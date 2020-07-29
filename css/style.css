@@ -11,21 +11,18 @@
 
 
 /* body */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'ProductSans-Regular';
 }
 
-
 /* navbar */
 .navbar-brand {
-    padding-bottom: 28px;
     width: auto;
-    height: 150px;
     object-fit: cover;
-}
-
-.nav-link {
-    margin-right: 30px;
 }
 
 .btn-login {
@@ -36,7 +33,6 @@ body {
 }
 
 .btn-register {
-    margin-left: 15px;
     border-radius: 0%;
     width: 80px;
 }
@@ -47,33 +43,24 @@ body {
     background-color: white;
 }
 
-.jumbotron-content-wrapper {
-    margin-top: 95px;
-}
-
-.jumbotron-text-wrapper {
-    margin-top: 25px;
-}
-
 .heading-comfortable {
     font-family: 'Product-Sans-Bold';
-    /* font-size: 66px; */
     color: black;
 }
 
 .heading-comfortable-dots {
-    color: grey;
+    color: gray;
 }
 
 .jumbotron-text-description {
     padding-top: 15px;
     font-family: 'ProductSans-Regular';
-    font-size: 18px;
 }
 
 .btn-get-it-now {
     margin-top: 7px;
     background-color: #2f3035;
+    box-shadow: 1px 5px 5px gray;
     color: white;
     padding-top: 10px;
     height: 45px;
@@ -86,8 +73,7 @@ body {
 }
 
 .jumbotron-bg-image-wrapper {
-    padding-top: 50px;
-    padding-left: 25px;
+    padding-top: 35px;
 }
 
 .bg-img {
@@ -99,6 +85,5 @@ body {
 .store {
     margin-top: -55px;
     width: auto;
-    height: 50px;
     object-fit: cover;
 }
